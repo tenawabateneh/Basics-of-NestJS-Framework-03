@@ -5,7 +5,7 @@ import { PowerService } from 'src/power/power.service';
 export class CpuService {
   constructor(private powerService: PowerService) { }
 
-  ComputerModule(a: number, b: number) {
+  compute(a: number, b: number) {
     console.log("Drawing 20 watts of power from Power Service")
     this.powerService.supplayPower(20)
     return a + b
