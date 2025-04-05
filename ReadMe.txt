@@ -16,7 +16,11 @@ nest g module cpu
 nest g module power
 
 // To generate Services
-nest g service computer
+nest g service cpu
+nest g service power
+
+// To generate Controllers
+nest g controller computer
 nest g service cpu
 nest g service power
 
